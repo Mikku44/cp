@@ -195,7 +195,7 @@ export default function App() {
          {/* modal */}
 
        <div id="modalC" className={Modal()}>
-        <div className="rounded-2xl bg-white drop-shadow-2xl h-full p-10">
+        <div className="rounded-2xl  overflow-auto bg-white drop-shadow-2xl h-full p-10">
         <div className=" z-30"><button className="float-right "onClick={closeModal}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 fill-orange-500 " id="closeBtn">
             <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z" clipRule="evenodd" />
