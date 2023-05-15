@@ -205,7 +205,7 @@ export default function App() {
           <div className="">สามารถปรับเปลี่ยนลวดลายของคุณได้ที่นี้</div>
 </div>
          
-          <div className="flex justify-around">
+          <div className="flex justify-around flex-wrap">
             <div className="box-content h-64 sm:w-1/2 w-128 drop-shadow-xl m-10 rounded-2xl original   bg-black " id='pad'>  <div className="box-content h-10 w-10 flex items-center float-center "> <img className="p-1" src="./pictures/Asset 1 white@4x.png" alt="" /></div> </div>
             <div className="block">
               <div className="font-bold">SELECT BACKGROUND COLOR</div>
